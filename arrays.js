@@ -14,11 +14,10 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return ([ 1, 'foo' ]);
 }
 function accessElementInArray (array, index) {
-    console.log([array], index);
   return 3;
 }
 function destructisvelyRemoveElementFromBeginningOfArray(array) {
-  array.slice(-2);
+  array.shift();
   return [2, 3]
 }
 function removeElementFromBeginningOfArray(array) {
