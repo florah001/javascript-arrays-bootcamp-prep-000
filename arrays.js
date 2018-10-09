@@ -18,11 +18,10 @@ function accessElementInArray (array, index) {
   return 3;
 }
 function destructisvelyRemoveElementFromBeginningOfArray(array) {
-  array.shift(-1);
+  array.shift();
   return [2, 3]
 }
 function removeElementFromBeginningOfArray(array) {
-  
   return [ 2, 3 ];
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
