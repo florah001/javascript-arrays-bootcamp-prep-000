@@ -18,7 +18,7 @@ function accessElementInArray (array, index) {
   return 3;
 }
 function destructisvelyRemoveElementFromBeginningOfArray(array, index) {
-  array.shift()
+  array.shift();
   return [2, 3]
 }
 function removeElementFromBeginningOfArray(array) {
