@@ -16,10 +16,13 @@ function destructivelyAddElementToEndOfArray(array, element) {
 function accessElementInArray (array, index) {
   return 3;
 }
+/*
 function destructisvelyRemoveElementFromBeginningOfArray(array) {
   array.unshift();
   return [2, 3]
 }
+*/
+
 function removeElementFromBeginningOfArray(array) {
   return [ 2, 3 ];
 }
